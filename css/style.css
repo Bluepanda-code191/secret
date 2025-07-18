@@ -227,10 +227,11 @@ img {
 }
 .box-hero .image-animation {
   width: 35%;
+  margin-right: 30px;
+  margin-top: 20px;
 }
 .box-hero .image-wrapper {
   width: 100%;
-  margin-right: 20px;
   overflow: hidden;
   border-radius: 50%;
   -o-object-fit: cover;
@@ -248,7 +249,7 @@ img {
   cursor: grab;
 }
 .box-hero .image-wrapper img:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 #secret {
@@ -322,6 +323,11 @@ img {
   }
   .hero .box-hero .image-animation {
     width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero .box-hero .image-animation .image-wrapper {
+    text-align: center;
   }
 }
 @media (max-width: 530px) {
@@ -394,6 +400,11 @@ img {
     width: 100%;
     font-size: 18px;
     padding: 15px;
+  }
+  .box-hero .hero-content .image-animation {
+    width: 55%;
+    margin-top: 10px;
+    margin-right: 0;
   }
 }
 @media (max-width: 370px) {

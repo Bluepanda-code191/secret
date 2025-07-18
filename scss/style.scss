@@ -262,11 +262,12 @@ img {
 
   .image-animation {
     width: 35%;
+    margin-right: 30px;
+    margin-top: 20px;
   }
 
   .image-wrapper {
     width: 100%;
-    margin-right: 20px;
     overflow: hidden;
     border-radius: 50%;
     object-fit: cover;
@@ -284,7 +285,7 @@ img {
       cursor: grab;
 
       &:hover {
-        transform: scale(1.3);
+        transform: scale(1.2);
       }
     }
   }

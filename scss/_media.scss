@@ -23,6 +23,12 @@
 
       .image-animation {
         width: 50%;
+        display: flex;
+        justify-content: center;
+
+        .image-wrapper {
+          text-align: center;
+        }
       }
     }
   }
@@ -122,6 +128,11 @@
           font-size: 18px;
           padding: 15px;
         }
+      }
+      .image-animation {
+        width: 55%;
+        margin-top: 10px;
+        margin-right: 0;
       }
     }
   }
