@@ -1,0 +1,205 @@
+@media (max-width: 790px) {
+  .navbar {
+    .box-navbar {
+      .menu {
+        opacity: 0;
+        transform: scale(0);
+        pointer-events: none;
+        display: none;
+      }
+
+      .menu-bar {
+        display: inline-block;
+      }
+    }
+  }
+
+  .hero {
+    .box-hero {
+      padding-top: 120px;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 70px;
+
+      .image-animation {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .box-hero {
+    padding-top: 70px;
+    .hero-content {
+      margin-top: -20px;
+      .content {
+        .header {
+          font-size: 20px;
+        }
+
+        .name {
+          font-size: 40px;
+        }
+
+        .job {
+          font-size: 20px;
+        }
+      }
+
+      .action-button {
+        width: 100%;
+
+        .button {
+          width: 100%;
+          font-size: 20px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .box-hero {
+    padding-top: 70px;
+
+    .hero-content {
+      .content {
+        .header {
+          font-size: 20px;
+        }
+
+        .name {
+          font-size: 38px;
+        }
+
+        .job {
+          font-size: 20px;
+        }
+      }
+
+      .action-button {
+        width: 90%;
+        gap: 10px;
+        .button {
+          width: 100%;
+          font-size: 20px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 428px) {
+  .box-hero {
+    .hero-content {
+      .content {
+        .header {
+          font-size: 20px;
+        }
+
+        .name {
+          font-size: 33px;
+        }
+
+        .job {
+          font-size: 20px;
+        }
+
+        .description {
+          max-height: 3.4rem;
+          font-size: 13px;
+        }
+      }
+
+      .action-button {
+        width: 90%;
+        gap: 10px;
+        .button {
+          width: 100%;
+          font-size: 18px;
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .box-hero {
+    .hero-content {
+      .content {
+        .header {
+          font-size: 18px;
+        }
+
+        .name {
+          font-size: 30px;
+        }
+
+        .job {
+          font-size: 18px;
+        }
+
+        .description {
+          max-height: 3rem;
+          font-size: 12px;
+        }
+      }
+
+      .action-button {
+        width: 90%;
+        gap: 10px;
+        .button {
+          width: 100%;
+          font-size: 14px;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 336px) {
+  .box-hero {
+    .hero-content {
+      .content {
+        .header {
+          font-size: 14px;
+        }
+
+        .name {
+          font-size: 26px;
+        }
+
+        .job {
+          font-size: 14px;
+        }
+
+        .description {
+          max-height: 3rem;
+          font-size: 11px;
+        }
+      }
+
+      .media {
+        a {
+          font-size: 18px;
+        }
+      }
+
+      .action-button {
+        width: 90%;
+        gap: 10px;
+
+        .button {
+          width: 100%;
+          font-size: 14px;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@mixin animation($x, $y) {
+  transform: translate($x, $y);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.fade-up {
+  @include animation(0, 50px);
+}
+
+.fade-down {
+  @include animation(0, -50px);
+}
+
+.fade-right{
+  @include animation(-50px,0 )
+}
+
+.fade-left{
+  @include animation(50px,0 )
+}
+
+.fade-up.show, .fade-down.show, .fade-left.show, .fade-right.show{
+  opacity: 1;
+  transform: translate(0);
+}
+
+@mixin delay($s){
+  transition-delay: #{$s}s;
+}
+
+.delay-200{
+  @include delay(0.2)
+}
+
+.delay-400{
+  @include delay(0.4)
+}
+
+.delay-600{
+  @include delay(0.6)
+}
+
+.delay-800{
+  @include delay(0.8)
+}
+
+.delay-200{
+  @include delay(0.2)
+}
