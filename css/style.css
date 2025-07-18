@@ -306,6 +306,10 @@ img {
 }
 
 @media (max-width: 790px) {
+  .container {
+    width: 90%;
+    margin: 0 20px;
+  }
   .navbar .box-navbar .menu {
     opacity: 0;
     transform: scale(0);
@@ -322,12 +326,8 @@ img {
     gap: 70px;
   }
   .hero .box-hero .image-animation {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-  }
-  .hero .box-hero .image-animation .image-wrapper {
-    text-align: center;
+    width: 60%;
+    margin-left: 50px;
   }
 }
 @media (max-width: 530px) {

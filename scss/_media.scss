@@ -1,4 +1,8 @@
 @media (max-width: 790px) {
+  .container {
+    width: 90%;
+    margin: 0 20px;
+  }
   .navbar {
     .box-navbar {
       .menu {
@@ -22,12 +26,10 @@
       gap: 70px;
 
       .image-animation {
-        width: 50%;
-        display: flex;
-        justify-content: center;
+        width: 60%;
+        margin-left: 50px;
 
         .image-wrapper {
-          text-align: center;
         }
       }
     }
