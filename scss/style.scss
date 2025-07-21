@@ -292,7 +292,43 @@ img {
 }
 
 #secret {
+  display: inline-block;
+  animation: gerak 5s ease-in-out 20s infinite;
   cursor: pointer;
+}
+
+.popup {
+  animation: toDown 1s ease-in-out;
+}
+
+.popup,
+.lanjutan,
+.clue {
+  position: fixed;
+  display: none;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--pink);
+  box-shadow: 0 0 20px var(--pink);
+  padding: 10px;
+  border: 2px solid var(--pink);
+  outline: none;
+  border-radius: 10px;
+  width: 350px;
+  margin: 20px auto;
+  text-align: center;
+
+  p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  button {
+    width: 30%;
+    padding: 8px 10px;
+    margin-top: 8px;
+  }
 }
 
 @import "animation";

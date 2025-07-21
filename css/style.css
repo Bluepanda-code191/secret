@@ -253,7 +253,45 @@ img {
 }
 
 #secret {
+  display: inline-block;
+  animation: gerak 5s ease-in-out 20s infinite;
   cursor: pointer;
+}
+
+.popup {
+  animation: toDown 1s ease-in-out;
+}
+
+.popup,
+.lanjutan,
+.clue {
+  position: fixed;
+  display: none;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--pink);
+  box-shadow: 0 0 20px var(--pink);
+  padding: 10px;
+  border: 2px solid var(--pink);
+  outline: none;
+  border-radius: 10px;
+  width: 350px;
+  margin: 20px auto;
+  text-align: center;
+}
+.popup p,
+.lanjutan p,
+.clue p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.popup button,
+.lanjutan button,
+.clue button {
+  width: 30%;
+  padding: 8px 10px;
+  margin-top: 8px;
 }
 
 .fade-up {
@@ -305,6 +343,36 @@ img {
   transition-delay: 0.2s;
 }
 
+@keyframes gerak {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes toDown {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
 @media (max-width: 790px) {
   .container {
     width: 90%;
