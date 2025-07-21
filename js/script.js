@@ -63,6 +63,6 @@ function jawaban(pilihan) {
   }
 }
 
-function selesai(){
+function selesai() {
   document.getElementById("popup3").style.display = "none";
 }
