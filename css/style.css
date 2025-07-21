@@ -318,7 +318,10 @@ img {
   transition: all 1s ease;
 }
 
-.fade-up.show, .fade-down.show, .fade-left.show, .fade-right.show {
+.fade-up.show,
+.fade-down.show,
+.fade-left.show,
+.fade-right.show {
   opacity: 1;
   transform: translate(0);
 }

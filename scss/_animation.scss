@@ -12,77 +12,80 @@
   @include animation(0, -50px);
 }
 
-.fade-right{
-  @include animation(-50px,0 )
+.fade-right {
+  @include animation(-50px, 0);
 }
 
-.fade-left{
-  @include animation(50px,0 )
+.fade-left {
+  @include animation(50px, 0);
 }
 
-.fade-up.show, .fade-down.show, .fade-left.show, .fade-right.show{
+.fade-up.show,
+.fade-down.show,
+.fade-left.show,
+.fade-right.show {
   opacity: 1;
   transform: translate(0);
 }
 
-@mixin delay($s){
+@mixin delay($s) {
   transition-delay: #{$s}s;
 }
 
-.delay-200{
-  @include delay(0.2)
+.delay-200 {
+  @include delay(0.2);
 }
 
-.delay-400{
-  @include delay(0.4)
+.delay-400 {
+  @include delay(0.4);
 }
 
-.delay-600{
-  @include delay(0.6)
+.delay-600 {
+  @include delay(0.6);
 }
 
-.delay-800{
-  @include delay(0.8)
+.delay-800 {
+  @include delay(0.8);
 }
 
-.delay-200{
-  @include delay(0.2)
+.delay-200 {
+  @include delay(0.2);
 }
 
 @keyframes gerak {
-  0%{
+  0% {
     transform: scale(1);
   }
 
-   20%{
+  20% {
     transform: scale(1.1);
   }
 
-   40%{
+  40% {
     transform: scale(0.8);
   }
 
-   60%{
+  60% {
     transform: scale(1.1);
   }
 
-   80%{
+  80% {
     transform: scale(0.8);
   }
 
-   100%{
+  100% {
     transform: scale(1);
   }
 }
 
 @keyframes toDown {
-  0%{
+  0% {
     opacity: 0;
     transform: translate(-50%, -100%);
   }
 
-  100%{
+  100% {
     opacity: 1;
-    transform: translate(-50%, 0)
+    transform: translate(-50%, 0);
   }
 }
