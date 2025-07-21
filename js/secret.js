@@ -99,7 +99,7 @@ const dialogues = [
     name: "Bayu",
     img: "stiker/senyum.png",
 
-    text: "Yaah, ini dialog terakhirr, Udah dulu yaa Bismii, Semangaat Yaaa, Si Bayu pasti bakal update kok, tapi aku gak tau jugaa, kalau dia gak update marahin aja yaaa, Dadah Bismii",
+    text: "Yaah, ini dialog terakhirr, Udah dulu yaa Bismii, Semangaat Yaaa, Si Bayu pasti bakal update kok, tapi aku gak tau jugaa, semoga bismii senang yaa, Dadah Bismii",
     buttons: ["Dadah", "😔"],
   },
 ];
