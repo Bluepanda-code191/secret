@@ -161,3 +161,10 @@ buttons.forEach((btn) => {
 });
 
 loadDialogue(currentIndex);
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "G-FYGT8Q1ZQM");
