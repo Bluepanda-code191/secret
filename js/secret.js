@@ -72,35 +72,41 @@ const dialogues = [
   {
     name: "Bayu",
     img: "stiker/senang.png",
-    text: "Hai Bismii, kaget yaaa, kenalin aku Bayu dari dimensi laiin",
-    buttons: ["Haii!", "Haloo!"],
+    text: "Hai Bismii, gimana kabarnyaa",
+    buttons: ["Baik!", "B Ajah"],
   },
   {
     name: "Bayu",
-    img: "stiker/ketawa.png",
-    text: "Sebenarnya link ini bakal Bayu kirim ke Bismi waktu ulang tahun Bismii, tapi kayaknya bagus sekarang ajaa, semoga Bismii suka yaa",
-    buttons: ["Makasiih!", "Keren juga!"],
+    img: "stiker/ngambek.png",
+    text: "Udah lama looh aku nungguin Bismii, Bismiinyaa gak pernah mampir lagii",
+    buttons: ["Maaf yaa", "Owh"],
   },
   {
     name: "Bayu",
-    img: "stiker/bingung.png",
-
-    text: "Oiyaa, coba Bismii klik di sekitar layar",
-    buttons: ["Udah", "Kereen!"],
-  },
-  {
-    name: "Bayu",
-    img: "stiker/ngejek.png",
-
-    text: "Gimana Bagus gaak, kalau Bismii bosan mampir aja ke sinii",
-    buttons: ["Okeeyy", "Pastii!"],
+    img: "stiker/senyum.png",
+    text: "kalau Bismi sampai mampir kesini, artinya Bismii udah jarang ngechat yaa sama Bayu",
+    buttons: ["...", "..."],
   },
   {
     name: "Bayu",
     img: "stiker/senyum.png",
 
-    text: "Yaah, ini dialog terakhirr, Udah dulu yaa Bismii, Semangaat Yaaa, Si Bayu pasti bakal update kok, tapi aku gak tau jugaa, semoga bismii senang yaa, Dadah Bismii",
-    buttons: ["Dadah", "😔"],
+    text: "Sebenarnya Bayu sebelum asing juga udah buat inii, kayaknya Bayu tau kalau nanti jadi ginii",
+    buttons: ["...", "..."],
+  },
+  {
+    name: "Bayu",
+    img: "stiker/ketawa.png",
+
+    text: "Udah berapa tahun yaa, Oiyaa selamat ulang tahun yaa Bismii, Sebenarnyaa Bayu update ini di ulang tahun Bismii tahun 2025, udah lama juga yaa",
+    buttons: ["...", "..."],
+  },
+  {
+    name: "Bayu",
+    img: "stiker/senyum.png",
+
+    text: "Yaah, ini dialog terakhir, udah dulu yaa Bismii, Semangat Yaa, ingat Bismii, gak ada yang salah dari pilihan Bismii, jadii apapun ituu, ituu semua hak Bismii, Dadah Bismii",
+    buttons: ["...", "..."],
   },
 ];
 
