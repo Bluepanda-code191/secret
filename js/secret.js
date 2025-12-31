@@ -72,41 +72,38 @@ const dialogues = [
   {
     name: "Bayu",
     img: "stiker/senang.png",
-    text: "Hai Bismii, gimana kabarnyaa",
-    buttons: ["Baik!", "B Ajah"],
-  },
-  {
-    name: "Bayu",
-    img: "stiker/ngambek.png",
-    text: "Udah lama looh aku nungguin Bismii, Bismiinyaa gak pernah mampir lagii",
-    buttons: ["Maaf yaa", "Owh"],
-  },
-  {
-    name: "Bayu",
-    img: "stiker/senyum.png",
-    text: "kalau Bismi sampai mampir kesini, artinya Bismii udah jarang ngechat yaa sama Bayu",
-    buttons: ["...", "..."],
-  },
-  {
-    name: "Bayu",
-    img: "stiker/senyum.png",
-
-    text: "Sebenarnya Bayu sebelum asing juga udah buat inii, kayaknya Bayu tau kalau nanti jadi ginii",
-    buttons: ["...", "..."],
+    text: "Haiii Bismii Selamat tahun baruuuu!",
+    buttons: ["Hahaha", "Haii"],
   },
   {
     name: "Bayu",
     img: "stiker/ketawa.png",
-
-    text: "Udah berapa tahun yaa, Oiyaa selamat ulang tahun yaa Bismii, Sebenarnyaa Bayu update ini di ulang tahun Bismii tahun 2025, udah lama juga yaa",
-    buttons: ["...", "..."],
+    text: "Gak kerasa yaa, tau-tau udah ganti angka lagii",
+    buttons: ["Iyaa", "Cepat banget"],
   },
   {
     name: "Bayu",
     img: "stiker/senyum.png",
-
-    text: "Yaah, ini dialog terakhir, udah dulu yaa Bismii, Semangat Yaa, ingat Bismii, gak ada yang salah dari pilihan Bismii, jadii apapun ituu, ituu semua hak Bismii, Dadah Bismii",
+    text: "Tahun lalu pasti banyak hal yang capek, banyak juga yang bikin belajar",
     buttons: ["...", "..."],
+  },
+  {
+    name: "Bayu",
+    img: "stiker/gaktau.png",
+    text: "Semoga di tahun baru ini, hari-hari Bismii lebih banyak senyumnya daripada capeknya 😄",
+    buttons: ["Aamiin", "Hehehe"],
+  },
+  {
+    name: "Bayu",
+    img: "stiker/ngambek.png",
+    text: "Kalau nanti capek, ingat yaa, istirahaatt!!",
+    buttons: ["Siap", "..."],
+  },
+  {
+    name: "Bayu",
+    img: "stiker/senyum.png",
+    text: "Semoga semua hal baik pelan-pelan datang ke Bismii",
+    buttons: ["...", "Aamiin"],
   },
 ];
 
